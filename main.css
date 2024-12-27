@@ -8,8 +8,8 @@
   max-width: min(95%, 1200px);
   width: 100%;
   position: relative;
-  transform-style: preserve-3d; /* Zachowuje perspektywę 3D */
-  transition: transform 0.6s; /* Animacja obrotu */
+  transform-style: preserve-3d; 
+  transition: transform 0.6s; 
 }
 .container .wrapper .title {
   position: relative;
@@ -145,7 +145,7 @@
 }
 @media (max-width: 750px) {
   .container .wrapper .threeColumnContainer .smallBlueBlock.flipped .innerBlock {
-    transform: rotateY(180deg); /* Obrót o 180 stopni */
+    transform: rotateY(180deg); 
   }
 }
 .container .wrapper .threeColumnContainer .smallBlueBlock .innerBlock {
